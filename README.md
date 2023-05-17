@@ -1,3 +1,3 @@
 # idea-sts-projectss
-Java eğitim projeleri
+Java eğitim projeleri kodları
 deneme
