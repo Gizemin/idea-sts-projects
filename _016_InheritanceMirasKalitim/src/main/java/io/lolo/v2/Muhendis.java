@@ -1,10 +1,10 @@
-package io.lolo;
+package io.lolo.v2;
 
 public class Muhendis extends Personel {
 
     private String temelBeceri;
     private String calismaSekli;
-    private long gorevTazminati;
+
 
     public String getTemelBeceri() {
         return temelBeceri;
@@ -22,11 +22,5 @@ public class Muhendis extends Personel {
         this.calismaSekli = calismaSekli;
     }
 
-    public long getGorevTazminati() {
-        return gorevTazminati;
-    }
 
-    public void setGorevTazminati(long gorevTazminati) {
-        this.gorevTazminati = gorevTazminati;
-    }
 }

@@ -1,4 +1,4 @@
-package io.lolo;
+package io.lolo.v2;
 
 public class AppMain {
 

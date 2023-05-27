@@ -1,6 +1,6 @@
-package io.lolo;
+package io.lolo.v1;
 
-public class Muhasebeci extends Personel{
+public class Muhasebeci extends Personel {
 
     private String muhasebeciUnvan;
 

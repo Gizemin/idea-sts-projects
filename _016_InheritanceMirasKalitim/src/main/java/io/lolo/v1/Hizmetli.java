@@ -1,8 +1,8 @@
-package io.lolo;
+package io.lolo.v1;
 
 import java.util.Arrays;
 
-public class Hizmetli extends Personel{
+public class Hizmetli extends Personel {
 
     private int [] katGorevAlani;
 

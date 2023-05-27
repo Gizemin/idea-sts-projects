@@ -1,7 +1,8 @@
-package io.lolo;
+package io.lolo.v2;
 
 public class Personel {
 
+    // ORTAK ALANLAR
     private String adi;
     private String soyadi;
     private String adres;
@@ -9,6 +10,8 @@ public class Personel {
     private String tc;
     private int yas;
     private int maasKatsayisi;
+
+    private long gorevTazminati;
 
     public String getAdi() {
         return adi;
@@ -66,16 +69,15 @@ public class Personel {
         this.maasKatsayisi = maasKatsayisi;
     }
 
-    @Override
-    public String toString() {
-        return "Personel{" +
-                "adi='" + adi + '\'' +
-                ", soyadi='" + soyadi + '\'' +
-                ", adres='" + adres + '\'' +
-                ", telefon='" + telefon + '\'' +
-                ", tc='" + tc + '\'' +
-                ", yas=" + yas +
-                ", maasKatsayisi=" + maasKatsayisi +
-                '}';
+
+    public long getGorevTazminati() {
+        return gorevTazminati;
     }
-}
+
+    public void setGorevTazminati(long gorevTazminati) {
+        this.gorevTazminati = gorevTazminati;
+    }
+
+
+    }
+
