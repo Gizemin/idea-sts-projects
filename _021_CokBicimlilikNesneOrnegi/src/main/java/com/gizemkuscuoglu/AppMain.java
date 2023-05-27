@@ -22,5 +22,10 @@ public class AppMain {
         if(obj3 instanceof  Hayvan){
             System.out.println(obj3);
         }
+
+        Veteriner veteriner= new Veteriner();
+        String gelenCevap= veteriner.hayvanBilgisiAl(obj1);
+
+        System.out.println(gelenCevap);
     }
 }
