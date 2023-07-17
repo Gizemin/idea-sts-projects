@@ -7,7 +7,7 @@ selecT * From customers;
 
 -- Ulkesi Almanya olmayanlar
 SELECT * FROM customers
-WHERE NOT country= 'DE'
+WHERE NOT country= 'DE';
 
 -- Ülkelerin isimlerini tek olaak listeleyelim.
 SELECT DISTINCT country FROM customers;
@@ -24,7 +24,7 @@ SELECT COUNT (DISTINCT country) FROM customers;
 SELECT customer_id AS c_id, first_name AS c_name FROM customers;
 
 -- Alias (Lakap takmak)
-SELECT cutomers.customer_id,  customers.first_name  FROM customers c;
+SELECT customer_id,  first_name  FROM customers c;
 SELECT c.customer_id    ,     c.first_name       FROM customers AS c;
 SELECT c.customer_id    ,     c.first_name       FROM customers c;
 
@@ -36,11 +36,9 @@ select CONCAT (first_name, ' ', last_name) full_name FROM customers;
 
 -- tabloya yeni bir kayıt ekleyelim.
 
-INSERT INFO customers (first_name, last_name, phone, country, age) 
-VALUES	 				('AAA'   , 'BBB'    , '111',  'TR'  ,  25);
+INSERT INTO customers (first_name, last_name, phone, country, age) VALUES ('AAA'   , 'BBB'    , '111',  'TR'  ,  25);
 
-INSERT INFO customers (first_name, phone, country, age, last_name) 
-VALUES	 				('AAA'   , '111',   'TR' ,  25,    'BBB');
+INSERT INTO customers (first_name, phone, country, age, last_name) VALUES('AAA'   , '111',   'TR' ,  25,    'BBB');
 
 
 -- tabloya birden fazla kayıt ekleyelim
